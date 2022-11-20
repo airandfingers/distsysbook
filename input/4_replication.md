@@ -211,7 +211,7 @@ Both Paxos and Raft make use of distinct node roles. In particular, they have a 
 
 ### Epochs
 
-Each period of normal operation in both Paxos and Raft is called an epoch ("term" in Raft). During each epoch only one node is the designated leader (a similar system is [used in Japan](http://en.wikipedia.org/wiki/Japanese_era_name) where era names change upon imperial succession).
+Each period of normal operation in Paxos is called an epoch (a "term" in Raft). During each epoch only one node is the designated leader (a similar system is [used in Japan](http://en.wikipedia.org/wiki/Japanese_era_name) where era names change upon imperial succession).
 
 <img src="images/epoch.png" alt="replication"  style="max-height: 130px;">
 
